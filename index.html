@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dropzone</title>
+    <link rel="stylesheet" href="dropzone-5.7.0/dist/dropzone.css">
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+    <body>
+        <div class="wrapper">
+            <h1>Jquery DropZone</h1>
+        </div>
+        <main>
+            <!-- dropzone form -->
+            <form action="/file-upload" class="dropzone" id="my-awesome-dropzone">
+                <div class="dz-message needsclick my-dropzone">
+                    <button type="button" class="dz-button">Click To Upload</button><br>
+                    <span class="note needsclick">(Or drop files here. Selected files are <strong>not</strong> actually uploaded.)</span>
+                </div>
+            </form>
+        </main>
+        <!-- scrips -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="core.js"></script>
+        <script src="./dropzone-5.7.0/dist/dropzone.js"></script>
+    </body>
+</html>

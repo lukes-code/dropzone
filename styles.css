@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;700&display=swap');
+
+body{
+    background: #E8E9EC;
+    font-family: 'Poppins', sans-serif;
+}
+
+.wrapper{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.dropzone {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.dropzone .my-dropzone {
+    text-align: center;
+    background-color: #fff;
+    width: 750px;
+    padding: 100px 50px;
+    border-radius: 3px;
+    border: 2px solid #57C4E5;
+    border-style: dashed;
+    display: block;
+    margin: 0 auto;
+}
+
+.dropzone .dz-preview {
+    text-align: center;
+    background-color: #fff;
+    width: 750px;
+    padding: 100px 50px;
+    border-radius: 3px;
+    border: 2px solid #57C4E5;
+    border-style: dashed;
+    display: block;
+    margin: 0 auto;
+}
+
+.dropzone .dz-message button.dz-button {
+    margin-bottom: 20px;
+    border: none !important;
+    border-radius: 3px;
+    background: #57C4E5;
+    padding: 10px 15px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.dropzone.dz-clickable {
+    background: none;
+    border: none;
+    box-sizing: unset;
+}
+
+.dropzone .dz-preview.dz-image-preview {
+    background: white;
+    z-index: 1;
+    color: #333;
+}
+
+.dropzone .dz-preview.dz-image-preview * {
+    z-index: 2;
+    color: #333 !important;
+    margin: 0 auto;
+}
+
+.dropzone .dz-preview.dz-error .dz-error-message {
+    position: sticky;
+}
+
+.dz-error {
+    background: rgba(202, 60, 37, 0.1) !important;
+    border-color: #CA3C25 !important;
+}
+
+.dropzone .dz-preview .dz-success-mark svg, .dropzone .dz-preview .dz-error-mark svg {
+    display: block;
+    width: 25px;
+    height: 40px;
+    margin-left: 45px;
+}
+
+@media only screen and (max-width:768px){
+    .dropzone .dz-preview {
+        width: 100%;
+    }
+}
